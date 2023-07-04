@@ -4,6 +4,7 @@ import { AiFillGithub } from 'react-icons/ai'
 
 export const Header = () => {
     return (
+        <header>
         <Tabs variant='soft-rounded' align='center' marginTop='2' >
             <TabList>
                 <Tab>Projects</Tab>
@@ -12,5 +13,6 @@ export const Header = () => {
                 <Tab><AiFillGithub size={30}></AiFillGithub></Tab>
             </TabList>
         </Tabs>
+        </header>
     )
 }
