@@ -1,5 +1,4 @@
-import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
-import { LiaDiscord } from 'react-icons/lia'
+import { Tabs, TabList, Tab } from '@chakra-ui/react'
 import { AiFillGithub } from 'react-icons/ai'
 
 export const Header = () => {
@@ -7,10 +6,8 @@ export const Header = () => {
         <header>
         <Tabs variant='soft-rounded' align='center' marginTop='2' >
             <TabList>
-                <Tab>Projects</Tab>
-                <Tab>About/Resume</Tab>
-                <Tab><LiaDiscord size={30} /></Tab>
                 <Tab><AiFillGithub size={30}></AiFillGithub></Tab>
+                <Tab>CV</Tab>
             </TabList>
         </Tabs>
         </header>
